@@ -1,38 +1,328 @@
-.App {
+.App{
+  width: 100%;
+}
+
+div.navbar ul {
+margin-right: 30px;
+}
+
+div.navbar ul li {
+  display: inline;
+  margin-left:10px;
+  padding: 4px;
+}
+
+li {
+  display: inline;
+}
+
+.button {
+  border-radius: 5px;
+  padding: 8px;
+}
+
+li:hover {
+  color:black;
+}
+.tool-card:hover{
+  color:rgba(210, 170, 11, 0.8);
+}
+
+li.button:hover {
+  background-color: rgba(210, 170, 11, 0.8);
+  color: black;
+  box-shadow: 2px 2px 15px white, -2px -2px 15px white, 2px -2px 15px white, -2px 2px 15px white;
+}
+
+.color-button{
+  border-radius: 5px;
+  padding: 10px;
+  background-color: rgba(210, 170, 11, 0.8);
+  color: black;
+ 
+}
+.color-button:hover{
+  
+  box-shadow: 2px 2px 15px rgb(210, 170, 11, 0.8), -2px -2px 15px rgb(210, 170, 11,0.8), 2px -2px 15px rgb(210, 170, 11, 0.8), -2px 2px 15px rgb(210, 170, 11, 0.8);
+  color:black
+}
+
+#logo {
+  height: 60px;
+  padding-left: 20px;
+}
+
+a, a:visited, a:hover, a:active {
+  color: inherit;
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  background-image: url('./images/egypt.jpg');
+  color: white;
+  font-weight: 700;
+}
+
+.project-content {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 35px;
+}
+
+h1{
+  margin-top: 240px;
+  text-align: center;
+  font-family: 'Aladin', cursive;
+  font-size: 70px;
+  display: inline;
+  margin-left: 30px ;
+  margin-right: 30px;
+}
+
+.title-container {
+  display: flex;
+  justify-content: center;
+}
+
+.torch{
+  margin-top:110px;
+}
+
+.footer-h1 {
+  margin-top: 30px;
+}
+
+.big-logo {
+  margin-bottom: -100px;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  margin-bottom: -110px;
+}
+
+#developer{
+  padding-bottom: 30px;
+}
+
+.developer-container {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.developer-h2{
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.developer-content h2{
+  margin-top: 0;
+}
+
+.developer-content {
+  line-height: 35px;
+}
+
+#footer {
+  background-image: url('./images/egypt.jpg');
+  width: 100%;
+}
+
+.footer-container {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding-bottom: 0;
+}
+
+.footer-button-ul {
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 800;
+  color: black;
+  font-size: 30px;
+}
+
+.contact-button-ul {
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 800;
+  color: black;
+  font-size: 30px;
+  padding-left: 0;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 100px;
+}
+
+.color-button-ul{
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 800;
+  color: black;
+  font-size: 30px;
+  padding-left: 0;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+div.footer-container ul {
+  padding-left: 0;
+  margin-top: -30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.footer-button {
+  background-color: black;
+  color: white;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.footer-icons-ul {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 40px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.footer-icons-ul li {
+  padding-right: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.project-samples{
+  display: flex;
+flex-direction: row;
+justify-content: center;
+padding-top: 30px;
+padding-bottom: 50px;
+
+}
+
+.sample {
+  padding: 20px;
+}
+
+.samples-p {
+  padding-top: 30px;
+}
+
+.devIcons{
+  margin-top: 40px;
+  width: 60px
+}
+
+.tool-card{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  color: black;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 40px;
+}
+
+.icons-ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0;
+}
+
+h2{
+  padding-top: 25px;
+}
+
+.video {
+  padding-top: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project-content-video {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 35px;
+}
+
+.about-large-screen {
+  display: inline-block;
+}
+
+.about-small-screen {
+  display:none;
+}
+
+@media only screen and (max-width: 768px) {
+
+  #footer {
+    width: 100%;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .project-content {
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .project-content-video {
+    width: 300px;
+  }
+
+  iframe {
+    width: 300px;
+    height: 160px;
+  }
+
+  .developer-h2{
+    width: 300px;
+  }
+
+  .developer-container{
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  h1 {
+    line-height: 65px;
+    margin-top: 140px;
+  }
+
+  .footer-container {
+    width: 350px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  .navbar {
+    width: 100%;
+  }
+
+  .about-large-screen{
+    display: none;
+  }
+
+  .about-small-screen{
+    display: inline-block;
+  }
+  #logo{
+    display: none;
   }
 }
