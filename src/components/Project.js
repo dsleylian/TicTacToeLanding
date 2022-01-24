@@ -1,8 +1,8 @@
 import React from "react";
 import flameGif from '../images/FlameOn.gif';
-// import sample_1 from '../images/Canvas_drawings1.jpg';
-// import sample_2 from '../images/Canvas_drawings2.jpg';
-// import sample_3 from '../images/Canvas_drawings3.jpg';
+import sample_1 from '../images/tictactoe-screenshot1.png';
+import sample_2 from '../images/tictactoe-screenshot2.png';
+import sample_3 from '../images/tictactoe-screenshot3.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faJs, faCss3, faHtml5 } from '@fortawesome/free-brands-svg-icons';
 
@@ -38,12 +38,12 @@ function Project(){
                     <p>CSS</p>
                 </li>
             </ul>
-            <h2>Examples</h2>
+            <h2>Screenshots</h2>
         </div>
         <div className="project-samples">
-            {/* <img className="sample" height="200px" src={sample_1} alt="sample" />    
+            <img className="sample" height="200px" src={sample_1} alt="sample" />    
             <img className="sample" height="200px" src={sample_2} alt="sample" />    
-            <img className="sample" height="200px" src={sample_3} alt="sample" />     */}
+            <img className="sample" height="200px" src={sample_3} alt="sample" />    
         </div>
         <div className="project-content-video">
         <h2>Video Walkthrough</h2>
