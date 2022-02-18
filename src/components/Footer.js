@@ -15,7 +15,7 @@ return(
             </ul>
             <ul className="footer-icons-ul">
             <li>
-                    <a href="http://www.daryaleylian.com" target="_blank" rel="noreferrer">
+                    <a href="https://www.daryaleylian.com" target="_blank" rel="noreferrer">
                     <svg version="1.1" id="Layer_2_00000012474277209711642730000006484398934844295580_"
                         xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="632px" height="664px"
                         viewBox="0 0 632 664" className="logo-for-hover footer-icons" >
