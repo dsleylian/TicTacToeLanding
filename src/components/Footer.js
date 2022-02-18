@@ -73,7 +73,7 @@ return(
                     </a> 
                 </li>
                 <li> 
-                    <a target="_blank" href="https://github.com/dsleylian/paint" rel="noreferrer"> <FontAwesomeIcon icon={faGithub} size="2x"/>  </a>
+                    <a target="_blank" href="https://github.com/dsleylian/TicTacToe-StargateTheme" rel="noreferrer"> <FontAwesomeIcon icon={faGithub} size="2x"/>  </a>
                 </li>
                 <li> 
                     <a target="_blank" href="https://www.linkedin.com/in/darya-leylian-a1a62057/" rel="noreferrer"> <FontAwesomeIcon icon={faLinkedin} size="2x"/>  </a>
